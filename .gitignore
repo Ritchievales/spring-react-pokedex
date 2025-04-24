@@ -1,0 +1,11 @@
+# Java / Spring Boot
+/target/
+*.iml
+.idea/
+*.log
+application.properties
+
+# Node / React
+node_modules/
+build/
+.env
