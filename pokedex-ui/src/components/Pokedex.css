@@ -1,0 +1,36 @@
+.pokedex {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.left-panel {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 8px;
+  overflow-y: auto;
+}
+
+.divider {
+  width: 8px;
+  background-color: black;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #f5c518; /* Golden squares */
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+.right-panel {
+  flex: 1;
+  background-color: white;
+  padding: 16px;
+}

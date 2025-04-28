@@ -1,0 +1,38 @@
+.pokemon-list-item {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  margin-bottom: 6px;
+  color: black;
+}
+
+.pokemon-list-item .arrow {
+  margin-right: 6px;
+  color: black;
+  font-size: 10px;
+}
+
+.pokemon-list-item .pokemon-number {
+  margin-right: 6px;
+  min-width: 32px;
+  text-align: right;
+}
+
+.pokemon-list-item .pokeball {
+  margin-right: 6px;
+  font-size: 10px;
+}
+
+.pokemon-list-item .pokemon-name {
+  flex-grow: 1;
+}
+
+.pokemon-list-item.selected {
+  background-color: #dcdcdc;
+}
+
+.pokeball-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
